@@ -15,13 +15,11 @@ function divide(a,b){
 }
 
 function increment(n){
-  var num = n
-  return num++
+  return parseInt(num++,10)
 }
 
 function decrement(n){
-  var num = n
-  return num--
+  return parseInt(num--,10)
 }
 
 function makeInt(n){
